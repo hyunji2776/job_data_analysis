@@ -11,6 +11,8 @@ st.set_page_config(
      initial_sidebar_state="expanded",
  )
 
+st.write('change')
+
 current_file = os.path.abspath(os.path.dirname(__file__))
 
 data = pd.read_csv(current_file+"/../data/jobkorea_data.csv")
